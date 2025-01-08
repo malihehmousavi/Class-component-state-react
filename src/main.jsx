@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import Mailbox from './Mailbox'
 import Mail from './Mail'
 import CounterMain from './CounterMain'
+import Counter from './Counter'
 
 
 createRoot(document.getElementById('root')).render(
@@ -12,5 +13,6 @@ createRoot(document.getElementById('root')).render(
     <hr />
     <br />
 <CounterMain />
+<Counter />
   </StrictMode>,
 )
